@@ -1,0 +1,132 @@
+﻿*{
+    box-sizing:border-box;
+    margin-top:2%;
+    font-size:20px;
+}
+body
+{
+    background-color:aliceblue;
+}
+#Tb_PNR,#Tb_CA,#Tb_No,#Tb_PartNo,#Tb_SubNo,#Tb_Waitage,#Tb_CCode,#Tb_Time,#Tb_CName,#Tb_set,#tb_School,#ddl_Pattern,#tb_MaxMarks
+{
+    width:20%;
+    height:30px;
+    margin-left:40px;
+    border:0;
+    border-bottom:1px inset black;
+}
+#Tb_Stmt,#Tb_Opt1,#Tb_Opt2,#Tb_Opt3,#Tb_Opt4,#Tb_ImageLink
+{
+    margin-left:40px;
+    margin-top:2%;
+    width:85%;
+    height:40px;
+}
+#Button1{
+    
+    height:50px;
+    display:flex;
+    margin-left:40px;
+    background-color:teal;
+    color:white;
+}
+.bcb
+{
+       height:50px;
+    display:flex;
+    margin-left:40px;
+    background-color:teal;
+    color:white;
+}
+#lbl_mcq{
+    margin-right:200px;
+}
+#Fu_Opt1,#Fu_Opt2,#Fu_Opt3,#Fu_Opt4{
+    margin-left:4%;
+}
+
+.lbl{
+    padding: 10px;
+    
+}
+.tb{
+    background:#FFF;
+    height: 40px;
+     margin-left:40px;
+    margin-top:2%;
+    height:40px;
+    width:85%;
+}
+.btn{
+     height:50px;
+    display:flex;
+    margin-left:40px;
+    background-color:teal;
+    color:white;
+}
+.pnl_dup
+{
+    overflow:hidden;
+    background-color: peachpuff!important;
+    padding: 30px;
+    width:100%;
+    min-height: 200px;
+}
+.gridviewheader{
+    color: #fff!important;
+}
+.PNRlessModal{
+ width: 400px;
+ padding: 30px;
+ 
+ box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
+ margin: 0px auto;
+ position: absolute;
+    top:20%;
+    left: 35%;
+    opacity:1;
+    background: #fff;
+}
+.ModalHolder
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background: #fff;
+    opacity: .7;
+    overflow: hidden;
+}
+.DynamicPaperLinks
+        {
+            margin: 10px;
+            display:block;
+        }
+        #pnl_SearchResults
+        {
+            border-top: 1px solid black;
+            max-width: 400px;
+        }
+
+        
+        .loader{
+            width: 100px;
+            height: 10px;
+            animation-name: loaderanimation;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+      @keyframes loaderanimation
+      {
+            0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+          }
+      .progressHolder 
+      {
+          height: 12px;
+          
+      }

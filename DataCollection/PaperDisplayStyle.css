@@ -1,0 +1,192 @@
+﻿/*
+This stylesheet defines rules for elements on the Question Paper display page. 
+*/
+*{
+    box-sizing: border-box;
+    outline: none;
+    font-family: Helvetica!important;
+}
+body{
+    background:rgb(82, 86, 89);
+}
+.Paper
+{
+    margin-top: 60px;
+    font-size: unset!important;
+    border: 1px solid black;
+    max-width: 8.25in;
+   /* height: 11.7in;*/
+    margin: 30px auto;
+    box-shadow: 0px 0px 13px 1px #333;
+    font-family: Helvetica!important;
+    overflow: hidden;
+    background: #fff;
+    padding: 75px 55px 50px 72px;
+}
+.PaperCode 
+{
+    font-size: 24px;
+    font-weight: 700;
+    float: right;
+    padding: 15px;
+    font-stretch: narrower;
+    margin: 0;
+    padding-bottom:0px;
+}
+.RegistrationNo
+{
+    font-size: 12px;
+    width: 150px;
+    font-weight: 700;
+}
+.PNRno
+{
+    font-size: 12px;
+    float: right;
+    font-weight: 700;
+}
+.CourseDetails
+{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.PaperInstructions
+{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 5px;
+}
+.PartHeaders
+{
+    font-weight: 700;
+    font-style:italic;
+    clear: both;
+    margin-left: 45%;
+    padding-top: 20px;
+    display:block;
+}
+.DiagramImage
+{
+    max-height: 100px;
+}
+.Spacemaker
+{
+    height: 10px;
+    width: 100%;
+}
+.Spreader
+{
+    display: block;
+    overflow: hidden;
+    padding: 0px;
+}
+.QuestionStatement
+{
+    display: block;
+}
+.MCQoption
+{
+    max-width: 200px;
+    float:left;
+    padding: 3px;
+}
+.qholder{
+    display: block; 
+    width:100%;
+    overflow:hidden;
+}
+.QuestionsSeparator{
+    margin-bottom: 15px;
+}
+.StmtNum
+{
+    float:left;
+    font-weight: 700;
+    max-width: 15%;
+}
+.StmtStmt
+{
+    float:left;
+    max-width: 75%;
+}
+.MarksAligner
+{
+    float:right;
+    max-width: 16%;
+}
+.OrClass
+{
+     float:left;
+    font-weight: 700;
+    font-size: 16px;
+    font-style:italic;
+    margin-left: 45%;
+}
+
+.Endmark
+{
+    font-weight: 700;
+    font-size: 12px;
+    display: block;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-style:italic;
+}
+.TopHeader
+{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+#CAnumber
+{
+    margin-left: 50px;
+}
+.paperdetails
+{
+    font-size: 12px;
+    font-weight: 700;
+    width: 200px;
+}
+.lefter
+{
+    float:left;
+}
+.righter
+{
+    float:right;
+}
+.caPaperSet
+{
+font-size: 16px;
+float: right;
+font-weight: 700;
+display:block;
+}
+#MessageHolder{
+    height: 500px;
+    display:none;
+}
+.Reload
+{
+    font-size: 25px;
+    text-align: center;
+    width: 300px;
+    margin-left: 22%;
+    color: #36e239;
+}
+.NoScriptMessageHolder
+{
+    width: 350px;
+    margin: 10% auto;
+    display: block;
+    background: #ffaa11;
+    padding: 20px;
+    border: 3px dashed red;
+
+}

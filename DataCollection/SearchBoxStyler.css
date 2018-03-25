@@ -1,0 +1,15 @@
+﻿    .backerTB{
+                width: 500px;
+             position: absolute; 
+
+            }
+            .overer{
+                background-color: transparent;
+            }
+            #tb_SearchByCourseNameBacker{
+                z-index: 19!important;
+                opacity: .4;
+            }
+            #tb_SearchByCourseName{
+                z-index: 20!important;
+            }
